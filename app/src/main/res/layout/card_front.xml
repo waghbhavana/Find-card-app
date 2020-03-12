@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_height="@dimen/card_height"
+        android:layout_width="@dimen/card_width"
+        android:src="@drawable/rectangle_front"/>
+
+    <TextView
+        android:id="@+id/front_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black"
+        android:text="@string/default_string"/>
+</FrameLayout>

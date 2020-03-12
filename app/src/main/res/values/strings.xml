@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Find Card App</string>
+    <string name="default_string">"?"</string>
+    <string name="restart">Restart</string>
+    <string name="steps">Steps: </string>
+    <string name="intial_count">0</string>
+</resources>
